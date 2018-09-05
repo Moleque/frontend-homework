@@ -56,7 +56,7 @@ QUnit.module('Тестируем функцию format', function () {
 	QUnit.test('format проверяет заданное количество колонок', function (assert) {
 		const input = [ 10, 100, 200, 1000, -1000];
 
-		const expected0 = null
+		const expected0 = null;
 
 		const expected1 = 
 			'  10   100 200\n' +
